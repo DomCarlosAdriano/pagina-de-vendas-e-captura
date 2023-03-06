@@ -1,38 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mestre da Lábia</title>
+  </head>
+  <body>
+    <header>
+      <img src="./img/sinalDeAviso.png" alt="" />
+      <p>
+        <span> Aviso:</span> Esse conteúdo não pode chegar nas mãos das
+        mulheres.
+      </p>
+    </header>
+    <main>
+      <div class="modal">
+        <h2>Preencha os campos a baixo</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+          architecto molestias quam porro officia recusandae magnam! Mollitia
+          tempora dolore, vitae, beatae eligendi quasi nesciunt, obcaecati unde
+          ea cumque veritatis fugit?
+        </p>
+        <form id="formulario">
+          <span>o nome deve ter pelo menos 3 caracteres</span>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Static Template</title>
-</head>
+          <input type="text" id="name" />
+          <span>o e-mail deve conter "@" e ".com"</span>
 
-<body>
-  <div class="container">
-    <div class="input">
-      <input class="nome" type="text" placeholder="nome" autofocus />
-      <input class="salario" type="text" placeholder="salario" />
-      <button class="btn-salvar" onclick="save()">salvar</button>
-    </div>
-    <div class="table">
-      <table border="1">
-        <tr>
-          <td>Nome</td>
-          <td>salario</td>
-        </tr>
-        <tr>
-          <td>Ted</td>
-          <td>22</td>
-        </tr>
-        <tr>
-          <td>Ralf</td>
-          <td>26</td>
-        </tr>
-      </table>
-    </div>
-  </div>
-  <script src="./script.js"></script>
-</body>
+          <input type="email" id="email" />
+          <button class="btn-modal" type="submit">Continuar assisntindo</button>
+        </form>
+      </div>
 
+      <div class="text">
+        <p>Poucos homens estão descobrindo…</p>
+        <h1>
+          O <span> passo a passo</span> para ter lábia e viciar uma mulher na
+          sua conversa…
+        </h1>
+        <p>MESMO SENDO TÍMIDO</p>
+      </div>
+
+      <div class="video">
+        <video id="myVideo">
+          <source src="./video/video.mp4" />
+        </video>
+
+        <div class="play">
+          <button>
+            <img src="./img/play.png" alt="botão de iniciar o video" />
+          </button>
+        </div>
+      </div>
+
+      <p class="text-btn">
+        Assista o video atentamente é descubra os segredos...
+      </p>
+      <button class="btn">ADIQUIRIR MINHA VAGA</button>
+    </main>
+    <footer>
+      <p>© Dom Carlos Adriano. 2023 All rigths reserved</p>
+    </footer>
+    <script src="./script.js" defer></script>
+  </body>
 </html>
