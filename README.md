@@ -16,7 +16,7 @@ Recentemente vi um vídeo do Thiago Finch (empreendedor do setor de marketing di
 <br>
 
 <p align="center">
-  <img alt="página de vendas e captura" src=".github/preview.jpg" width="100%">
+  <img alt="página de vendas e captura" src="https://user-images.githubusercontent.com/96521007/223276819-4047c83d-6e20-4639-a17f-9b0deae70318.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
